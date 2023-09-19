@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(180, 20, 20);
+        }
+        header{
+            background-color: antiquewhite;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav{
+            background-color: rgb(155, 152, 152);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 50px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+            
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px 5px 5px 30px;
+
+        }
+        article {
+            background-color: whitesmoke;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: gray;
+
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            padding: 5px;
+            margin: 0px;
+            color: aliceblue;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esportes politica tecnologia</p>
+        </section>
+            <section id="noticias">
+                <article>
+                    <h2>noticias</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet distinctio molestiae, repellat neque fugiat veritatis quas facilis at minima quo fuga itaque? Cupiditate, dolorem. Delectus natus beatae ducimus repellendus aliquam.</p>
+                    <aside>
+                        <p>artigo mama meu pau
+                        
+                        </p>
+                    </aside>
+                </article>
+            </section>
+    </main>
+    <footer>
+        <p>desenvolvido por lucas</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
